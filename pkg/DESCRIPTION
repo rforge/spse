@@ -5,6 +5,6 @@ Date: 2011-04-21
 Author: Gianfranco Piras <gpiras@mac.com>
 Maintainer: Gianfranco Piras <gpiras@mac.com>
 Description: ML and GM estimation of spatial simultaneous equations model
-Depends: R (>= 2.12), MASS, nlme, spdep, plm, Matrix, spam
+Depends: R (>= 2.12), MASS, nlme, spdep, plm, Matrix, spam, splm, plm, Ecdat
 License: GPL-2
 LazyLoad: yes
