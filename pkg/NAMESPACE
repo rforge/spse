@@ -4,11 +4,12 @@ import(spdep)
 import(Matrix)
 importFrom(MASS,ginv)
 
-export(spsegm, spseml,
-print.spse, summary.spse)
+export(spsegm, spseml, print.spse, summary.spse, spsepgm, print.spsugm, summary.spsugm)
 
 
 
 S3method(print, spse)
 S3method(print, summary.spse)
+S3method(print, spsugm)
+S3method(print, summary.spsugm)
 
